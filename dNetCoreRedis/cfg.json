@@ -1,0 +1,26 @@
+{
+  "Connection": "prod-#-cache.redis.cache.windows.net:6380,password=#,ssl=True",
+  "DelayMinutes": 5,
+  "KeyConfigs": [
+    {
+      "DB": 12,
+      "Key": "TriggeredMarginCallSession"
+    },
+    {
+      "DB": 12,
+      "Key": "TriggeredOrderPositionsPnls"
+    },
+    {
+      "DB": 12,
+      "Key": "TriggeredPositionPnl"
+    },
+    {
+      "DB": 12,
+      "Key": "TriggeredReduceOrder"
+    },
+    {
+      "DB": 12,
+      "Key": "TriggeredLimitOrder"
+    }
+  ]
+}
